@@ -1,0 +1,31 @@
+{
+  "name": "build_cabin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/svc_bs_devloper/build_cabin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/svc_bs_devloper/build_cabin#readme",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.3.1",
+    "@google-cloud/pubsub": "^2.8.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^7.0.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  }
+}

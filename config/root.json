@@ -1,0 +1,7 @@
+{
+  "appli_name" : "cabin",
+  "server_code" : "svc",
+  "environment" : "dev",
+  "series" : "v2",
+  "dummy_commit" : ""
+}
